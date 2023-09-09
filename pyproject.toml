@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "z3-samples"
+version = "0.1.0"
+description = ""
+authors = ["Ties de Kock <ties@tiesdekock.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+z3-solver = "^4.12.2.0"
+ipdb = "^0.13.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
